@@ -1,6 +1,6 @@
 namespace Heranca
 {
-    public class Aviao
+    public class Aviao : Veiculo
     {
         public int NumeroDeTurbinas { get; private set;}
         public Carro(string marca, string modelo, string cor, string combustivel, int turbinas) 
