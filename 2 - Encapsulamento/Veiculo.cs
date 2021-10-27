@@ -1,8 +1,8 @@
 using System;
 
-namespace Classe
+namespace Encapsulamento
 {
-    public class Veiculo
+    public class Veiculo : IVeiculo
     {
         private string Marca { get; set; }
         private string Cor { get; set; }
